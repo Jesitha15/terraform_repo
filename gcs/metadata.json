@@ -1,0 +1,31 @@
+{
+  "name": "Bigtable to BigQuery Flex Template",
+  "description": "A Dataflow Flex Template to read Avro data from GCS, transform it, and load it into BigQuery.",
+  "parameters": [
+    {
+      "name": "source_instance",
+      "label": "Source Bigtable Instance",
+      "helpText": "The Bigtable instance to read data from."
+    },
+    {
+      "name": "source_cluster",
+      "label": "Source Bigtable Cluster",
+      "helpText": "The Bigtable cluster to read data from."
+    },
+    {
+      "name": "source_table",
+      "label": "Source Bigtable Table",
+      "helpText": "The Bigtable table to read data from."
+    },
+    {
+      "name": "input_avro",
+      "label": "Input Avro GCS Path",
+      "helpText": "The GCS path to the input Avro files."
+    },
+    {
+      "name": "output_table",
+      "label": "Output BigQuery Table",
+      "helpText": "The BigQuery table to write the output to (format: project:dataset.table)."
+    }
+  ]
+}

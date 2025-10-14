@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: bt_to_bq_pipeline
+Version: 0.0.1
+Requires-Dist: apache-beam[gcp]
+Requires-Dist: cramjam
+Dynamic: requires-dist

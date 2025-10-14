@@ -1,0 +1,6 @@
+setup.py
+bt_to_bq_pipeline.egg-info/PKG-INFO
+bt_to_bq_pipeline.egg-info/SOURCES.txt
+bt_to_bq_pipeline.egg-info/dependency_links.txt
+bt_to_bq_pipeline.egg-info/requires.txt
+bt_to_bq_pipeline.egg-info/top_level.txt

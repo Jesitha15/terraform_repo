@@ -1,0 +1,36 @@
+{
+  "name": "bigtable_to_bigquery_flex",
+  "description": "Reads Avro from GCS, transforms, and writes to BigQuery",
+  "parameters": [
+    {
+      "name": "input_avro",
+      "label": "Input Avro GCS Path",
+      "helpText": "Path to the input Avro files in GCS",
+      "paramType": "TEXT"
+    },
+    {
+      "name": "output_table",
+      "label": "Output BigQuery Table",
+      "helpText": "Destination BigQuery table (project:dataset.table)",
+      "paramType": "TEXT"
+    },
+    {
+      "name": "source_instance",
+      "label": "Bigtable Instance",
+      "helpText": "Source Bigtable instance name",
+      "paramType": "TEXT"
+    },
+    {
+      "name": "source_cluster",
+      "label": "Bigtable Cluster",
+      "helpText": "Source Bigtable cluster name",
+      "paramType": "TEXT"
+    },
+    {
+      "name": "source_table",
+      "label": "Bigtable Table",
+      "helpText": "Source Bigtable table name",
+      "paramType": "TEXT"
+    }
+  ]
+}
