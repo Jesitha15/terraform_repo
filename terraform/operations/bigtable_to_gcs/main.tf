@@ -1,5 +1,5 @@
 module "bt_to_gcs" {
-  source = "../../module"
+  source = "../../module_classic"
   
   project_id            = var.project_id
   region                = var.region

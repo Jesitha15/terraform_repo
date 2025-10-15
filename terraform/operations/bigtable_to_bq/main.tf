@@ -2,7 +2,7 @@
 #               BIG TABLE TO BIG QUERY
 #################################################
 module "bt_to_bq" {
-  source = "../../module"
+  source = "../../module_flex"
   
   project_id            = var.project_id
   region                = var.region
